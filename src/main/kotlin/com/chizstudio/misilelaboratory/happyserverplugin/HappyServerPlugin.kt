@@ -1,6 +1,7 @@
 package com.chizstudio.misilelaboratory.happyserverplugin
 
 import com.chizstudio.misilelaboratory.happyserverplugin.modules.CustomKick
+import com.chizstudio.misilelaboratory.happyserverplugin.modules.DisablePlugin
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.properties.Properties
@@ -41,7 +42,7 @@ class HappyServerPlugin: JavaPlugin() {
 
 @ExperimentalSerializationApi
 fun kommandmanager(plugin: HappyServerPlugin) {
-
+    DisablePlugin().setupkommand(plugin)
 }
 
 @ExperimentalSerializationApi
