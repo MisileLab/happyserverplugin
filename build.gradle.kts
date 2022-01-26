@@ -19,6 +19,7 @@ dependencies {
     compileOnly("io.papermc.paper:paper-api:1.18.1-R0.1-SNAPSHOT")
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.6.0")
     implementation("io.github.monun:kommand-api:2.8.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-properties:1.3.2")
 }
 
 project.extra.set("packageName", name.replace("-", ""))
