@@ -13,8 +13,8 @@ class CustomKick: Listener {
     @EventHandler
     fun customkickhandler(e: PlayerJoinEvent) {
         val config = getconfig()
-        val playernames = config.CustomListKick.split(",")
-        if (playernames.contains(e.player.name)) {
+        val playeruuids = config.CustomListKick.split(",")
+        if (playeruuids.contains(e.player.uniqueId.toString())) {
             e.player.kick(Component.text(config.CustomMessageKick))
         }
     }

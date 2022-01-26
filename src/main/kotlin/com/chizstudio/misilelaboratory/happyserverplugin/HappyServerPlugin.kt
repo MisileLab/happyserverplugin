@@ -33,6 +33,10 @@ class HappyServerPlugin: JavaPlugin() {
         kommandmanager(this)
         listenermanager(this)
     }
+
+    fun getplugin(): HappyServerPlugin {
+        return this
+    }
 }
 
 @ExperimentalSerializationApi
