@@ -3,4 +3,5 @@ version: 0.0.1
 main: com.chizstudio.misilelaboratory
 api-version: 1.17
 libraries:
-  - - io.github.monun:kommand-core:2.8.1
+  - io.github.monun:kommand-core:2.8.1
+  - org.jetbrains.kotlin:kotlin-stdlib:1.6.10
