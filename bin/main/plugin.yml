@@ -4,5 +4,5 @@ main: com.chizstudio.misilelaboratory.happyserverplugin.HappyServerPlugin
 api-version: 1.18
 libraries:
   - io.github.monun:kommand:2.8.1
-  - org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2
+  - org.jetbrains.kotlinx:kotlinx-serialization-properties:1.3.2
   - org.jetbrains.kotlin:kotlin-stdlib:1.6.10
